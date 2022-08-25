@@ -2,13 +2,54 @@
 
 This is a repo for stuff that I host myself locally.
 
+## Requirements
+
+The requirements to run most of what is in here are as follows:
+
+- [Docker](https://www.docker.com/)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
+- [Node.js](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+
+## Localtunnel
+
+[Localtunnel](https://github.com/localtunnel/localtunnel) | [Localtunnel Server](https://github.com/localtunnel/server)
+
+Localtunnel is great if you don't have a static IP address, or if you are behind carrier grade NAT.
+
+### Localtunnel Usage
+
+To quickly set up localtunnel, run the following command:
+
+```bash
+npx localtunnel --port 8000
+```
+
+Or if you want to install the package:
+
+```bash
+npm install -g localtunnel
+lt --port 8000
+```
+
+- `--subdomain` request a named subdomain on the localtunnel server (default is random characters)
+- `--local-host` proxy to a hostname other than localhost
+
+Example:
+
+```bash
+lt --port 8000 --subdomain loftwah-sucks --local-host loftwah.local
+```
+
+This would expose `loftwah-sucks.localtunnel.me` to `loftwah.local:8000` on your local network.
+
 ## Vaultwarden
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | [Vaultwarden Backup](https://github.com/ttionya/vaultwarden-backup)
 
 Vaultwarden is a self hostable version of Bitwarden. It can be launched via Docker Compose.
 
-### Usage
+### Vaultwarden Usage
 
 > **Important:** We assume you already read the `vaultwarden` [documentation](https://github.com/dani-garcia/vaultwarden/wiki).
 
