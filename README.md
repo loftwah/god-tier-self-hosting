@@ -1,13 +1,20 @@
 **Table of Contents**
 
 - [Self Hosting](#self-hosting)
+<<<<<<< HEAD
   - [Table of Contents](#table-of-contents)
+=======
+>>>>>>> e5a78562511b10da78a1fbb1e045ef8ba4d5859b
   - [Requirements](#requirements)
   - [Localtunnel](#localtunnel)
     - [Localtunnel Usage](#localtunnel-usage)
   - [Vaultwarden](#vaultwarden)
     - [Vaultwarden Usage](#vaultwarden-usage)
+<<<<<<< HEAD
       - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone-️-must-read-️)
+=======
+      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone--must-read-)
+>>>>>>> e5a78562511b10da78a1fbb1e045ef8ba4d5859b
         - [Configure and Check](#configure-and-check)
       - [Backup](#backup)
       - [Restore](#restore)
