@@ -8,15 +8,22 @@ This is a repo for stuff that I host myself locally.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Requirements](#requirements)
-- [Localtunnel](#localtunnel)
-  - [Localtunnel Usage](#localtunnel-usage)
-- [Vaultwarden](#vaultwarden)
-  - [Vaultwarden Usage](#vaultwarden-usage)
-    - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone--must-read-)
-      - [Configure and Check](#configure-and-check)
-    - [Backup](#backup)
-    - [Restore](#restore)
+- [Self Hosting](#self-hosting)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Localtunnel](#localtunnel)
+    - [Localtunnel Usage](#localtunnel-usage)
+  - [Nginx Proxy Manager](#nginx-proxy-manager)
+  - [Piping Server](#piping-server)
+    - [Transfer](#transfer)
+    - [Self-host on Docker](#self-host-on-docker)
+  - [Portainer](#portainer)
+  - [Vaultwarden](#vaultwarden)
+    - [Vaultwarden Usage](#vaultwarden-usage)
+      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone-️-must-read-️)
+        - [Configure and Check](#configure-and-check)
+      - [Backup](#backup)
+      - [Restore](#restore)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -61,6 +68,10 @@ lt --port 8000 --subdomain loftwah-sucks --local-host loftwah.local
 
 This would expose `loftwah-sucks.localtunnel.me` to `loftwah.local:8000` on your local network.
 
+## Nginx Proxy Manager
+
+[Nginx Proxy Manager](https://nginxproxymanager.com/)
+
 ## Piping Server
 
 [Piping Server](https://github.com/nwtgck/piping-server)
@@ -95,6 +106,12 @@ Run a server in background and it automatically always restarts.
 ```bash
 docker run -p 8080:8080 -d --restart=always nwtgck/piping-server
 ```
+
+## Portainer
+
+[Portainer](https://www.portainer.io/)
+
+Portainer is a web interface for Docker.
 
 ## Vaultwarden
 
