@@ -1,11 +1,13 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
 - [Self Hosting](#self-hosting)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Localtunnel](#localtunnel)
+    - [Localtunnel Usage](#localtunnel-usage)
   - [Vaultwarden](#vaultwarden)
-    - [Usage](#usage)
-      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone--must-read-)
+    - [Vaultwarden Usage](#vaultwarden-usage)
+      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone-️-must-read-️)
         - [Configure and Check](#configure-and-check)
       - [Backup](#backup)
       - [Restore](#restore)
@@ -37,11 +39,16 @@
     - [Mail Test](#mail-test)
     - [Migration](#migration)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Self Hosting
 
 This is a repo for stuff that I host myself locally.
+
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Requirements
 
