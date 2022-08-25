@@ -3,8 +3,11 @@
 **Table of Contents**
 
 - [Self Hosting](#self-hosting)
+  - [Requirements](#requirements)
+  - [Localtunnel](#localtunnel)
+    - [Localtunnel Usage](#localtunnel-usage)
   - [Vaultwarden](#vaultwarden)
-    - [Usage](#usage)
+    - [Vaultwarden Usage](#vaultwarden-usage)
       - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone--must-read-)
         - [Configure and Check](#configure-and-check)
       - [Backup](#backup)
