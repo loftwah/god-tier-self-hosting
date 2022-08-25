@@ -88,6 +88,41 @@ lt --port 8000 --subdomain loftwah-sucks --local-host loftwah.local
 
 This would expose `loftwah-sucks.localtunnel.me` to `loftwah.local:8000` on your local network.
 
+## Piping Server
+
+[Piping Server](https://github.com/nwtgck/piping-server)
+
+Infinitely transfer between every device over HTTP/HTTPS
+
+### Transfer
+
+Piping Server is simple. You can transfer as follows.
+
+```bash
+# Send
+echo 'hello, world' | curl -T - https://ppng.io/hello
+# Get
+curl https://ppng.io/hello > hello.txt
+```
+
+Piping Server transfers data to POST /hello or PUT /hello into GET /hello. The path /hello can be anything such as /mypath or /mypath/123/. A sender and receivers who specify the same path can transfer. Both the sender and the recipient can start the transfer first. The first one waits for the other.
+
+You can also use Web UI like [ppng.io](https://ppng.io) on your browser. A more modern UI is found in [piping-ui.org](https://piping-ui.org), which supports E2E encryption.
+
+### Self-host on Docker
+
+Run a Piping Server on [localhost:8080](http://localhost:8080) as follows.
+
+```bash
+docker run -p 8080:8080 nwtgck/piping-server
+```
+
+Run a server in background and it automatically always restarts.
+
+```bash
+docker run -p 8080:8080 -d --restart=always nwtgck/piping-server
+```
+
 ## Vaultwarden
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | [Vaultwarden Backup](https://github.com/ttionya/vaultwarden-backup)
