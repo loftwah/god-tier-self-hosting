@@ -8,21 +8,23 @@ This is a repo for stuff that I host myself locally.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Requirements](#requirements)
-- [Localtunnel](#localtunnel)
-  - [Localtunnel Usage](#localtunnel-usage)
-- [Nginx Proxy Manager](#nginx-proxy-manager)
-- [Piping Server](#piping-server)
-  - [Transfer](#transfer)
-  - [Self-host on Docker](#self-host-on-docker)
-- [Portainer](#portainer)
-  - [Portainer Templates](#portainer-templates)
-- [Vaultwarden](#vaultwarden)
-  - [Vaultwarden Usage](#vaultwarden-usage)
-    - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone--must-read-)
-      - [Configure and Check](#configure-and-check)
-    - [Backup](#backup)
-    - [Restore](#restore)
+- [Self Hosting](#self-hosting)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Localtunnel](#localtunnel)
+    - [Localtunnel Usage](#localtunnel-usage)
+  - [Nginx Proxy Manager](#nginx-proxy-manager)
+  - [Piping Server](#piping-server)
+    - [Transfer](#transfer)
+    - [Self-host on Docker](#self-host-on-docker)
+  - [Portainer](#portainer)
+    - [Portainer Templates](#portainer-templates)
+  - [Vaultwarden](#vaultwarden)
+    - [Vaultwarden Usage](#vaultwarden-usage)
+      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone-️-must-read-️)
+        - [Configure and Check](#configure-and-check)
+      - [Backup](#backup)
+      - [Restore](#restore)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -70,6 +72,19 @@ This would expose `loftwah-sucks.localtunnel.me` to `loftwah.local:8000` on your
 ## Nginx Proxy Manager
 
 [Nginx Proxy Manager](https://nginxproxymanager.com/)
+
+Nginx Proxy Manager is a great way to manage your proxies. Use the Docker Compose template in the `nginx-proxy-manager` directory.
+
+Default credentials are:
+
+| Default User | Default Password |
+|--------------|------------------|
+| admin@example.com | changeme |
+
+```bash
+cd nginx-proxy-manager
+docker-compose up -d
+```
 
 ## Piping Server
 
