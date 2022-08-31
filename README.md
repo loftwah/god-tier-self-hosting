@@ -21,7 +21,7 @@ This is a repo for stuff that I host myself locally.
     - [Portainer Templates](#portainer-templates)
   - [Vaultwarden](#vaultwarden)
     - [Vaultwarden Usage](#vaultwarden-usage)
-      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone-️-must-read-️)
+      - [Configure Rclone](#configure-rclone)
         - [Configure and Check](#configure-and-check)
       - [Backup](#backup)
       - [Restore](#restore)
@@ -146,7 +146,7 @@ Vaultwarden is a self hostable version of Bitwarden. It can be launched via Dock
 
 > **Important:** We assume you already read the `vaultwarden` [documentation](https://github.com/dani-garcia/vaultwarden/wiki).
 
-#### Configure Rclone (⚠️ MUST READ ⚠️)
+#### Configure Rclone
 
 > **For backup, you need to configure Rclone first, otherwise the backup tool will not work.**
 > 
