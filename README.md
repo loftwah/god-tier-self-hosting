@@ -131,8 +131,7 @@ Portainer is a web interface for Docker.
 
 ### Portainer Templates
 
-[Selfhosted Pro](https://github.com/SelfhostedPro/selfhosted_templates) | [Technorabilia](https://github.com/technorabilia/portainer-templates/tree/main/lsio/templates)
-[Pi-hosted](https://github.com/pi-hosted/pi-hosted)
+[Selfhosted Pro](https://github.com/SelfhostedPro/selfhosted_templates) | [Technorabilia](https://github.com/technorabilia/portainer-templates/tree/main/lsio/templates) | [Pi-hosted](https://github.com/pi-hosted/pi-hosted)
 
 - [App list](https://github.com/pi-hosted/pi-hosted/blob/master/docs/AppList.md) for Pi-hosted
 
