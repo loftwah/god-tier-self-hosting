@@ -2,7 +2,7 @@
 
 ![Banner Image](images/banner.png)
 
-This is a repo for stuff that I host myself locally.
+This is a repo for stuff that I host myself locally. Since Heroku has notified people it is removing the free tier you might want to check out [free-for.dev](https://free-for.dev/).
 
 ## Table of Contents
 
@@ -10,21 +10,23 @@ This is a repo for stuff that I host myself locally.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Requirements](#requirements)
-- [Localtunnel](#localtunnel)
-  - [Localtunnel Usage](#localtunnel-usage)
-- [Nginx Proxy Manager](#nginx-proxy-manager)
-- [Piping Server](#piping-server)
-  - [Transfer](#transfer)
-  - [Self-host on Docker](#self-host-on-docker)
-- [Portainer](#portainer)
-  - [Portainer Templates](#portainer-templates)
-- [Vaultwarden](#vaultwarden)
-  - [Vaultwarden Usage](#vaultwarden-usage)
-    - [Configure Rclone](#configure-rclone)
-      - [Configure and Check](#configure-and-check)
-    - [Backup](#backup)
-    - [Restore](#restore)
+- [Self Hosting](#self-hosting)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Localtunnel](#localtunnel)
+    - [Localtunnel Usage](#localtunnel-usage)
+  - [Nginx Proxy Manager](#nginx-proxy-manager)
+  - [Piping Server](#piping-server)
+    - [Transfer](#transfer)
+    - [Self-host on Docker](#self-host-on-docker)
+  - [Portainer](#portainer)
+    - [Portainer Templates](#portainer-templates)
+  - [Vaultwarden](#vaultwarden)
+    - [Vaultwarden Usage](#vaultwarden-usage)
+      - [Configure Rclone](#configure-rclone)
+        - [Configure and Check](#configure-and-check)
+      - [Backup](#backup)
+      - [Restore](#restore)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
