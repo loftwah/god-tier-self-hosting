@@ -8,21 +8,23 @@ This is a repo for stuff that I host myself locally.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Requirements](#requirements)
-- [Localtunnel](#localtunnel)
-  - [Localtunnel Usage](#localtunnel-usage)
-- [Nginx Proxy Manager](#nginx-proxy-manager)
-- [Piping Server](#piping-server)
-  - [Transfer](#transfer)
-  - [Self-host on Docker](#self-host-on-docker)
-- [Portainer](#portainer)
-  - [Portainer Templates](#portainer-templates)
-- [Vaultwarden](#vaultwarden)
-  - [Vaultwarden Usage](#vaultwarden-usage)
-    - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone--must-read-)
-      - [Configure and Check](#configure-and-check)
-    - [Backup](#backup)
-    - [Restore](#restore)
+- [Self Hosting](#self-hosting)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Localtunnel](#localtunnel)
+    - [Localtunnel Usage](#localtunnel-usage)
+  - [Nginx Proxy Manager](#nginx-proxy-manager)
+  - [Piping Server](#piping-server)
+    - [Transfer](#transfer)
+    - [Self-host on Docker](#self-host-on-docker)
+  - [Portainer](#portainer)
+    - [Portainer Templates](#portainer-templates)
+  - [Vaultwarden](#vaultwarden)
+    - [Vaultwarden Usage](#vaultwarden-usage)
+      - [Configure Rclone (⚠️ MUST READ ⚠️)](#configure-rclone-️-must-read-️)
+        - [Configure and Check](#configure-and-check)
+      - [Backup](#backup)
+      - [Restore](#restore)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -115,6 +117,9 @@ Portainer is a web interface for Docker.
 ### Portainer Templates
 
 [Selfhosted Pro](https://github.com/SelfhostedPro/selfhosted_templates) | [Technorabilia](https://github.com/technorabilia/portainer-templates/tree/main/lsio/templates)
+[Pi-hosted](https://github.com/pi-hosted/pi-hosted)
+
+- [App list](https://github.com/pi-hosted/pi-hosted/blob/master/docs/AppList.md) for Pi-hosted
 
 Portainer templates are great for people who don't want to get their hands dirty in the command line, or don't have the greatest understanding of Docker or Linux. It makes it easier to get it up and running quickly. I'm not sure which templates are the best but here are a couple of repositories that have some good templates.
 
