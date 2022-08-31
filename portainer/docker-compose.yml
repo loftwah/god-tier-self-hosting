@@ -3,7 +3,7 @@ services:
     portainer-ce:
         ports:
             - '8000:8000'
-            - '9443:9443'
+            - '9000:9000'
         container_name: portainer
         restart: always
         volumes:
