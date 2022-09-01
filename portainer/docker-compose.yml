@@ -4,6 +4,9 @@ services:
         ports:
             - '8000:8000'
             - '9000:9000'
+        environment:
+            - VIRTUAL_HOST=your-domain.com
+            - VIRTUAL_PORT=9000
         container_name: portainer
         restart: always
         volumes:
